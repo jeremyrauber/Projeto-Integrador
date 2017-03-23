@@ -9,8 +9,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="com.example.tads.projetointegrador.MainActivity">
+        android:theme="@style/AppTheme.NoActionBar">
+
+
+        <activity android:name="com.example.tads.projetointegrador.MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +24,12 @@
         <!-- Declaracao da Activity da tela de  cadastro -->
         <activity android:name="com.example.tads.projetointegrador.Cadastro"
             android:label="Cadastro "
+            android:theme="@style/AppTheme"
+            ></activity>
+
+        <!-- Declaracao da Activity Inicial-->
+        <activity android:name="com.example.tads.projetointegrador.Inicial"
+            android:label="Inicial "
             ></activity>
 
         <!-- Declaracao da Activity da tela de cadastro -->

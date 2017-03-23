@@ -8,8 +8,14 @@
     <string name="TextoBoasVindas">Bem vindo!</string>
     <string name="textoConsulta">Bem vindo de Volta</string>
 
-    <string name="hello_world">Hello world!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <string name="action_settings">Settings</string>
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
+    <string name="nomeUsuario">nome_do_usuario_logado</string>
+    <string name="emailUsuario">email_do_usuario@servidor.com</string>
+
+
+
 </resources>

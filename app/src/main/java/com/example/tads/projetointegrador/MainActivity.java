@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(this.getBaseContext(), "Usuario Logado! id:"+array[1], Toast.LENGTH_SHORT).show();
 
-            Intent  i = new Intent(getApplicationContext(),Consulta.class);
+            Intent  i = new Intent(getApplicationContext(),Inicial.class);
             i.putExtra(EXTRA_MESSAGE, IDusuario);
             startActivity(i);
 
